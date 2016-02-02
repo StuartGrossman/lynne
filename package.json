@@ -1,0 +1,17 @@
+{
+  "name": "appname",
+  "version": "0.0.0",
+  "description": "An application for the Coder Camps FullStack JS course",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "postinstall": "bash ./post_install.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    
+  }
+}
