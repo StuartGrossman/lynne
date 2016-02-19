@@ -25,6 +25,15 @@ app.use(bodyParser.json());
 app.get('/', function(req, res) {
 	res.render('index');
 });
+app.get('/webProfolio', function(req, res) {
+	res.render('webProfolio');
+});
+app.get('/mobilGallery', function(req, res){
+	res.render('mobilGallery')
+})
+app.get('/profile', function(req, res){
+	res.render('profile')
+})
 
 var server = app.listen(port, function() {
 	var host = server.address().address;

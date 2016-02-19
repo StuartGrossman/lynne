@@ -31,7 +31,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .background:first-child {
-  background-image: url(http://s8.postimg.org/lf2udl5np/4_Aihmii.jpg);
+  background-image: url(../img/gallery1.png);
   -webkit-transform: translateY(-15vh);
           transform: translateY(-15vh);
 }
@@ -40,12 +40,17 @@ html, body {
           transform: translateY(15vh);
 }
 .background:nth-child(2) {
-  background-image: url(http://s8.postimg.org/ow4wgk4px/ugqti_Lg.jpg);
+  background-image: url(../img/gallery2.png);
 }
 .background:nth-child(3) {
   background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
 }
-
+.background:nth-child(4) {
+  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+}
+.background:nth-child(5) {
+  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+}
 /* Set stacking context of slides */
 .background:nth-child(1) {
   z-index: 3;
@@ -57,6 +62,12 @@ html, body {
 
 .background:nth-child(3) {
   z-index: 1;
+}
+.background:nth-child(4) {
+  z-index: 0;
+}
+.background:nth-child(5) {
+  z-index: -1;
 }
 
 .content-wrapper {
