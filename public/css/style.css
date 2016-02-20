@@ -43,13 +43,13 @@ html, body {
   background-image: url(../img/gallery2.png);
 }
 .background:nth-child(3) {
-  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+  background-image: url(../img/gallery3.png);
 }
 .background:nth-child(4) {
-  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+  background-image: url(../img/gallery4.png);
 }
 .background:nth-child(5) {
-  background-image: url(http://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
+  background-image: url(../img/gallery5.png);
 }
 /* Set stacking context of slides */
 .background:nth-child(1) {
