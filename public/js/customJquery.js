@@ -9,8 +9,10 @@ $( document ).ready(function() {
     	$('#collapse').show();
     })
     $('#collapse').on('click', function(e){
-    	$('#expand').show();
-    	$('#collapse').hide();
-    	service.fadeOut(1000);
+    	
+    	service.fadeOut(1000, function(){
+    		$('#expand').show();
+    		$('#collapse').hide();
+    	});
     })
 });
