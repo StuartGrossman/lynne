@@ -4,7 +4,7 @@ $(document).ready(function(){
 				// $(".group1").colorbox({rel:'group1'});
 				// $(".group2").colorbox({rel:'group1', transition:"fade"});
 				// $("#firstpic").colorbox({rel:'firstpic', transition:"none", width:"75%", height:"75%"});
-				$(".group4").colorbox({rel:'group1', slideshow:true});
+				$(".group4").colorbox({rel:'group1', slideshow:false});
 				// $(".ajax").colorbox();
 				// $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
 				// $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
