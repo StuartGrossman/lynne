@@ -49,23 +49,21 @@ html, body {
   background-image: url(../img/gallery4.png);
 }
 .background:nth-child(5) {
-  background-image: url(../img/housegray.jpeg);
+  background-image: url(../img/gallery5.png);
 }
 .background:nth-child(6) {
-  background-image: url(../img/gallery3.png);
+  background-image: url(../img/gallery6.png);
 }
 .background:nth-child(7) {
-  background-image: url(../img/gallery4.png);
+  background-image: url(../img/gallery7.png);
 }
 .background:nth-child(8) {
-  background-image: url(../img/housegray.jpeg);
+  background-image: url(../img/gallery8.png);
 }
 .background:nth-child(9) {
-  background-image: url(../img/gallery4.png);
+  background-image: url(../img/gallery9.png);
 }
-.background:nth-child(10) {
-  background-image: url(../img/housegray.jpeg);
-}
+
 /* Set stacking context of slides */
 .background:nth-child(1) {
   z-index: 3;
@@ -87,7 +85,6 @@ html, body {
 .background:nth-child(6) {
   z-index: -2;
 }
-
 .background:nth-child(7) {
   z-index: -3;
 }
@@ -97,10 +94,6 @@ html, body {
 .background:nth-child(9) {
   z-index: -5;
 }
-.background:nth-child(10) {
-  z-index: -10;
-}
-
 
 .content-wrapper {
   height: 100vh;
