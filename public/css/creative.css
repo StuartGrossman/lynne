@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #046380;
+    background-color: #33807d;
 }
 
 .bg-dark {
@@ -479,7 +479,7 @@ body {
 }
 
 #contact{
-    background-color: #04C4FF;
+    background-color: #216395;
     color: #fff;
 }
 .client{
@@ -489,4 +489,8 @@ body {
 #profile_img {
     height: 30%;
     width: 30%;
+}
+.profileText{
+    font-size: 13px;
+    display: inline;
 }
