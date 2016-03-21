@@ -488,6 +488,10 @@ body {
     background-color: #04C4FF;
     color: #fff;
 }
+#price{
+   background-color: black;
+   color:black;
+}
 .client{
     color: white;
 }
