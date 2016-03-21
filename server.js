@@ -34,6 +34,9 @@ app.get('/mobilGallery', function(req, res){
 app.get('/profile', function(req, res){
 	res.render('profile')
 })
+app.get('/consultation', function(req, res){
+	res.render('consultation')
+})
 
 var server = app.listen(port, function() {
 	var host = server.address().address;

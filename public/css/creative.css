@@ -328,6 +328,12 @@ header .header-content .header-content-inner p {
 .text-primary {
     color: #800463;
 }
+.text-primary2 {
+    color: #ff0446;
+}
+.custom-text-muted2{
+    color: #ff0446;
+}
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
